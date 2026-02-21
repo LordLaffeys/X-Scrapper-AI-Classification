@@ -189,7 +189,7 @@ Categories: {'early_stage_founder': 161, 'ai_operator': 23, 'angel_investor': 23
 
 APIs used: {'ollama': 261, 'none': 19}, **based on manual human validation and second validation through big models (gpt/gemini) there are alot inaccuracies**
 
-## Prompt Setups (can be tune more)
+## Prompt Setups (can be tuned more)
 ```
 Analyze this Twitter account and classify it into exactly one category.
 
