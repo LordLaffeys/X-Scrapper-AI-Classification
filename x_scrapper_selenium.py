@@ -439,7 +439,7 @@ def main():
                 'total_unique_after': len(all_accounts)
             })
             
-            print(f"  📊 Query {i} complete: {query_stats['new_this_query']} new accounts")
+            print(f"  Query {i} complete: {query_stats['new_this_query']} new accounts")
         
         # Final summary
         print(f"\n{'='*60}")
