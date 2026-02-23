@@ -456,7 +456,7 @@ def main():
         print(f"{'='*60}")
         
         # Show breakdown by query source
-        print("\n📊 ACCOUNTS BY QUERY SOURCE:")
+        print("\nACCOUNTS BY QUERY SOURCE:")
         query_source_counts = {}
         for handle, acc in all_accounts.items():
             for q in acc.get('found_in_queries', []):
