@@ -43,7 +43,7 @@ If you are using the Ollama classifier:
 
 
 ### 4. Scraper Configuration
-Before running, you can "tinker" with x_scrapper_selenium.py to adjust the data volume and scrolling speed:
+Before running, you can "tinker" with x_scrapper_selenium.py to adjust the data volume and scrolling speed and query:
 
 | Variable                | Recommended Value | Description                          |
 |-------------------------|------------------|--------------------------------------|
@@ -52,6 +52,9 @@ Before running, you can "tinker" with x_scrapper_selenium.py to adjust the data 
 | SCROLL_PIXELS           | 2500             | Jump distance per scroll             |
 | MAX_SCROLLS_PER_QUERY   | 35               | Total scrolls allowed per search     |
 | TARGET_TOTAL_ACCOUNTS   | 300              | Total accounts to collect            |
+
+Modify the query search if needed
+**SEARCH_QUERIES = ["example founders", "example AI", "This is a query"]**
 
 ### 5. Run Phase
 **Step A: Scrape Data**
